@@ -1,4 +1,4 @@
-# Exercise 1: Arrays
+# Exercise 2: Lists
 
 This is an exercise for the coursera course [More C# Programming and Unity](https://www.coursera.org/learn/more-programming-unity)
 
@@ -6,33 +6,13 @@ This is an exercise for the coursera course [More C# Programming and Unity](http
 
 Double-click the index file in the Help folder and click the ConsoleCards link in the pane on the left; this is the documentation for the classes I provided to you in the ConsoleCards dll.
 
-Open the Exercise1 solution in your IDE.
+Open the Exercise2 solution in your IDE.
 
-### Problem 1 - Create objects
+### Problem 1 - Convert from an array to a list
 
-Because you'll be using the classes in the **ConsoleCards** namespace from the dll I added to the project, add a using directive for that namespace at the top of the Program.cs file.
+Change the code in the \tt{Main}Main method to use a list of cards instead of an array.
 
-Inside the **Main** method, declare a deck variable and create a new **Deck** object for that variable.
-
-Inside the **Main method, declare an array variable **that will hold 5 cards and create a new array object for that variable.
-
-Tell the deck to shuffle itself.
-
-### Problem 2 - Add card to the array, flip it over, and print it
-
-Take a card from the top of the deck and add it to element 0 in the array.
-
-Flip the card at element 0 of the array over.
-
-Tell the card at element 0 of the array to print itself.
-
-### Problem 3 - Add another card to the array, flip it over, and print both cards
-
-Take a card from the top of the deck and add it to element 1 in the array.
-
-Flip the card at element 1 of the array over.
-
-Tell the cards at elements 0 and 1 of the array to print themselves.
+Remember, the **List** class is in the **System.Collections.Generic** namespace, so you may need to add a using directive for that namespace.
  
 ## Installation
 To install, follow these steps:
@@ -44,4 +24,4 @@ Download and extract the zip file to a directory of your choice.
 
 Via command line:
 
-`$ git clone https://github.com/puglisac/coursera c-sharp-2-ex1.git`
+`$ git clone https://github.com/puglisac/coursera c-sharp-2-ex2.git`
